@@ -5,6 +5,16 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Effisoft.Nightdroid.Api", "Effisoft.Nightdroid.Api\Effisoft.Nightdroid.Api.csproj", "{BED7F88E-904B-4342-916B-7FA6E77FCD73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Effisoft.Nightdroid.Common", "Effisoft.Nightdroid.Common\Effisoft.Nightdroid.Common.csproj", "{7DB5E797-8BC4-4DEA-8F0F-44807E48D8B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{44016318-4112-4F2B-B03D-F3EDF48FA3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Effisoft.Nightdroid.DataAccess.MongoDB", "Effisoft.Nightdroid.DataAccess.MongoDB\Effisoft.Nightdroid.DataAccess.MongoDB.csproj", "{DA2FBF04-88C1-47ED-BC61-DE2975FF9579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Effisoft.Nightdroid.Repository", "Effisoft.Nightdroid.Repository\Effisoft.Nightdroid.Repository.csproj", "{837BB8DB-ED6F-4EAF-8936-7A0265F1180F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Effisoft.Nightdroid.Test", "Effisoft.Nightdroid.Test\Effisoft.Nightdroid.Test.csproj", "{4CD10D7F-EC3F-4633-8628-9359F4924A57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +25,27 @@ Global
 		{BED7F88E-904B-4342-916B-7FA6E77FCD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BED7F88E-904B-4342-916B-7FA6E77FCD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BED7F88E-904B-4342-916B-7FA6E77FCD73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB5E797-8BC4-4DEA-8F0F-44807E48D8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB5E797-8BC4-4DEA-8F0F-44807E48D8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB5E797-8BC4-4DEA-8F0F-44807E48D8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB5E797-8BC4-4DEA-8F0F-44807E48D8B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2FBF04-88C1-47ED-BC61-DE2975FF9579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2FBF04-88C1-47ED-BC61-DE2975FF9579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2FBF04-88C1-47ED-BC61-DE2975FF9579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2FBF04-88C1-47ED-BC61-DE2975FF9579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837BB8DB-ED6F-4EAF-8936-7A0265F1180F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837BB8DB-ED6F-4EAF-8936-7A0265F1180F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837BB8DB-ED6F-4EAF-8936-7A0265F1180F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837BB8DB-ED6F-4EAF-8936-7A0265F1180F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD10D7F-EC3F-4633-8628-9359F4924A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD10D7F-EC3F-4633-8628-9359F4924A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD10D7F-EC3F-4633-8628-9359F4924A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD10D7F-EC3F-4633-8628-9359F4924A57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA2FBF04-88C1-47ED-BC61-DE2975FF9579} = {44016318-4112-4F2B-B03D-F3EDF48FA3CF}
 	EndGlobalSection
 EndGlobal
